@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Todos with API</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <h1>To-Do App</h1>
+    <div id="container">
+      <!-- Filter button with dropdown -->
+      <div class="dropdown">
+        <button id="filterButton">Filter by User ID</button>
+        <ul id="dropdownList" class="dropdown-content">
+          <!-- User IDs will be dynamically populated here -->
+        </ul>
+      </div>
+
+      <!-- Clear Button -->
+      <button id="clearButton">Clear</button>
+
+      <!-- To-do List -->
+      <div id="todoList"></div>
+    </div>
+  </body>
+</html>
